@@ -20,7 +20,7 @@ body {
   background:var(--color-white);
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", Arial, sans-serif;
   color: var(--color-dark);
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .hint {
