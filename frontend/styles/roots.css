@@ -1,0 +1,35 @@
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --bg-0: #070b14;
+    --bg-1: #0c1526;
+
+    --navy: #0e1a30;
+    --navy-2: #122140;
+
+    --blue: #2fa3ff;
+    --blue-glow: #5fc2ff;
+    --green: #3ecf7e;
+    --green-glow: #6ee8a4;
+
+    --ink: #eaf2ff;
+    --ink-dim: #9fb1cc;
+
+    --color-text:#7e97b8;
+    --color-light : rgba(47,163,255,0.14);
+
+
+    --line: rgba(143, 180, 255, 0.16);
+
+    --card-w: 640px;
+    --card-ratio: 1.5;
+
+}
+
+
+@media (max-width: 520px) {
+  .card-widget {
+    --card-w: 94vw;
+  }
+}

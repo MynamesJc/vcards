@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Risen'Corps — Carte de visite virtuelle</title>
+            <link rel="stylesheet" href="styles/roots.css">
+            <link rel="stylesheet" href="styles/base.css">
+            <link rel="stylesheet" href="styles/cards.css">
+
+        </head>
+
+<body>
+
+  <div class="face-toggle">
+    <span class="face-label active" id="labelLeft">Recto</span>
+    <button class="flip-btn" id="flipBtn" aria-label="Retourner la carte">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+    <span class="face-label" id="labelRight">Verso</span>
+  </div>
+
+  <div class="scene">
+    <div class="card" id="card">
+
+      <div class="face front">
+        <div class="left-col">
+
+          <div class="brand">
+            <img src="assets/images/E-logo.png" alt="Risen'corps">
+            <div>
+              <div class="brand-name">Risen<span class="accent">'</span>Corps</div>
+              <div class="brand-sub">FUTURE TECH AND AI</div>
+            </div>
+          </div>
+
+          <p class="tagline">Nous <span class="hl-blue">concevons</span> des solutions digitales intelligentes qui simplifient la gestion, automatisent les processus et créent de la <span class="hl-green">valeur durable</span> pour les entreprises et les communautés.</p>
+          <div class="pillars">
+            <div class="pillar">
+              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg></div>
+              <span>INNOVATION TECHNOLOGIQUE</span>
+            </div>
+            <div class="pillar">
+              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2a4.5 4.5 0 0 0-4.4 5.5A4.5 4.5 0 0 0 6 16h.5a2.5 2.5 0 0 1 0 5"></path><path d="M14.5 2a4.5 4.5 0 0 1 4.4 5.5A4.5 4.5 0 0 1 18 16h-.5a2.5 2.5 0 0 0 0 5"></path></svg></div>
+              <span>SOLUTIONS INTELLIGENTES</span>
+            </div>
+            <div class="pillar">
+              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+              <span>IMPACT &amp; VALEUR DURABLE</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="orbit-wrap">
+          <div class="orbit-ring"></div>
+          <div class="orbit-ring r2"></div>
+          <div class="hub">
+           
+          </div>
+          <div class="sat s1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.6 6.32A7.85 7.85 0 0 0 12 4a8 8 0 0 0-6.93 12"></path><path d="M12 2v2"></path><path d="M20 12h2"></path><path d="M6.34 17.66l-1.41 1.41"></path><path d="M12 22a8 8 0 0 0 6.32-12.9"></path></svg></div>
+          <div class="sat s2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></div>
+          <div class="sat s3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"></circle><path d="M5.5 21a6.5 6.5 0 0 1 13 0"></path></svg></div>
+          <div class="sat s4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4.5 8-11.8A8 8 0 0 0 4 10.2C4 17.5 12 22 12 22z"></path><path d="M9 10l2 2 4-4"></path></svg></div>
+          <div class="sat s5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
+        </div>
+      </div>
+
+      <div class="face back">
+        <div class="back-top">
+          <div class="avatar" id="avatarInitials">
+            <img src="assets/images/ceo.png" alt="ceo">
+          </div>
+          <div>
+            <div class="who">
+              <div class="name">Jean Christel Sinzogan</div>
+              <div class="role">FONDATEUR &amp; CEO</div>
+            </div>
+            <div class="contact">
+              <div class="contact-row">
+                <span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+                <span data-field="phone">+229 01 50 78 58 71</span>
+              </div>
+              <div class="contact-row">
+                <span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" stroke="none"></path><path d="M22 6l-10 7L2 6"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg></span>
+                <span data-field="email">jeanchristelsinzogan@gmail.com</span>
+              </div>
+              <div class="contact-row">
+                <span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                <span data-field="address">Cotonou, Bénin — Gbèdjromèdé C/893</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="qr-box">
+            <div class="qr-frame" id="qrFrame"></div>
+            <div class="qr-caption">Scannez pour découvrir nos solutions</div>
+          </div>
+        </div>
+
+        <div class="collab" style="margin-top:10px;">
+          <div class="collab-title">NOUS COLLABORONS AVEC :</div>
+          <div style="display:flex;gap:14px;flex-wrap:wrap;">
+            <div class="collab-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+              <div>
+                <div class="ctitle">FOURNISSEURS &amp; PARTENAIRES</div>
+                <div class="csub">Construisons ensemble l'avenir.</div>
+              </div>
+            </div>
+            <div class="collab-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <div>
+                <div class="ctitle">INVESTISSEURS</div>
+                <div class="csub">Participer à une vision ambitieuse et durable.</div>
+              </div>
+            </div>
+            <div class="collab-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <div>
+                <div class="ctitle">CLIENTS</div>
+                <div class="csub">Des solutions pensées pour vos besoins réels.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back-bottom">
+          <div class="motto">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+            <span>Risen'Corps s'engage à bâtir des technologies utiles, accessibles et évolutives pour une Afrique plus connectée et autonome.</span>
+          </div>
+          <div class="products">
+            <div class="pill mia"> MIA</div>
+            <div class="pill beronda">BERONDA</div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="action-btn" id="downloadBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      Télécharger
+    </button>
+    <button class="action-btn" id="shareBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+      Partager
+    </button>
+  </div>
+
+  <p class="hint">Clique sur la flèche pour retourner la carte. Le téléchargement capture la face actuellement visible.</p>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+  <script src="scripts/cards.js"></script>
+</body>
+</html>
