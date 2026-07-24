@@ -31,7 +31,7 @@
     qrFrame.appendChild(qrCanvas);
     new QRious({
       element: qrCanvas,
-      value:   window.location.href || "https://vrtcards.netlify.app",
+      value:   window.location.href ,
       size: 300,
       background: '#ffffff',
       foreground: '#0e1a30',
